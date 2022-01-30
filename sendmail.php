@@ -11,7 +11,7 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('misha1992z.github.io, 'Фрилансер по жизни');
+	$mail->setFrom('https://misha1992z.github.io/Form/, 'Фрилансер по жизни');
 	//Кому отправить
 	$mail->addAddress('zubovm1992@gmail.com');
 	//Тема письма
