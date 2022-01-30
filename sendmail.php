@@ -11,9 +11,9 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('Zubovm1992@gmail.com', 'Фрилансер по жизни');
+	$mail->setFrom('shpikmisha@gmail.com, 'Фрилансер по жизни');
 	//Кому отправить
-	$mail->addAddress('Zubovm1992@gmail.com');
+	$mail->addAddress('zubovm1992@gmail.com');
 	//Тема письма
 	$mail->Subject = 'Металопрокат"';
 
